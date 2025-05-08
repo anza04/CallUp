@@ -18,4 +18,4 @@ router.put('/:id', updateTraining);
 // Elimina un allenamento
 router.delete('/:id', deleteTraining);
 
-export default router;
+export {router};

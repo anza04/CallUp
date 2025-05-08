@@ -18,4 +18,4 @@ router.put('/:id', updateMatch);
 // Elimina una partita
 router.delete('/:id', deleteMatch);
 
-export default router;
+export {router};
